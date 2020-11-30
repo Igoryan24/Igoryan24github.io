@@ -142,12 +142,11 @@ li:hover .a-products {
 .button-search:focus {outline: none;}
 .card {
     margin-top: 5px;
-    position: absolute;
+    position: relative;
     height: 40px;
     width: 40px;
     font-size: 20px;
     background-color: #ffffff;
-    border: none;
 }
 .card:before {
     position: absolute;
@@ -156,13 +155,29 @@ li:hover .a-products {
     font-family: FontAwesome;
     color: #2b71b9;
 }
-.product-count:before {
+/*.product-count:before {
     position: absolute;
     content: "\2779";
     font-family: FontAwesome;
     color:  #2b71b9;
     font-size: 28px;
     margin: -10px -10gpx;
+}*/
+.product-count {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: #2b71b9;
+    border-radius: 100%;
+}
+.number {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
 }
 .fa-fa-angle-down:before {
     content: "\f107";
