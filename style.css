@@ -206,24 +206,31 @@ li:hover .a-products {
     margin-top: 65px;
 }
 [class*="dev-"] {
-    float: left;
+    /*float: left;*/
     width: 270px;
+    margin-top: 180px;
     border: 1px solid white;
     background-color: rgb(35, 90, 149, 0.6);
-    margin-top: 30px;
-    margin-left: 30px;
 }
-.container-device {
+.device-container {
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.products-container {
     width: 1000px;
     margin-top: 20px;
     margin-left: -30px;
 }
-.image {
+[class*="image-"] {
+    position: absolute;
     height: 180px;
     width: 270px;
-    margin-left: -1px;
-    margin-top: -1px;
     background-color:  rgba(255, 255, 255, 0.6);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 .device-name {
     color: white;
@@ -235,7 +242,7 @@ li:hover .a-products {
     color: white;
     font-size: 21px;
     font-weight: 100;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 h3 {
     color: white;
@@ -253,12 +260,14 @@ span {
     font-size: 48px;
     font-weight: 600;
     text-align: center;
+    margin-top: 10px;
 }
 sup {
     color: white;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 5px;
+    vertical-align: top;
 
 }
 
@@ -272,7 +281,7 @@ sup {
     font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
-    margin-top: 20px;
+    margin-top: 22px;
     margin-left: 30px;
 
 }
