@@ -233,7 +233,7 @@ input[type="checkbox"]:checked + label:before {
     color: white;
     font-size: 18px;
     margin-left: 25px;
-    margin-top: -13px;
+    margin-top: -14px;
 }
 .more-options {
     color: white;
