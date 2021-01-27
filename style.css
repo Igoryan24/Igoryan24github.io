@@ -478,3 +478,62 @@ input[type="checkbox"]:checked + label:before {
 .show {
     display: block;
 }
+/*Change product-count*/
+.product-quantity, .product-quantity input {
+    margin-top: 10px;
+    text-align: center;
+}
+.product-quantity button {
+    padding: 3px 8px;
+}
+
+/*Slider block*/
+.slider-block > div {
+    /*margin: 150px 50px;*/
+    padding: 135px 50px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: solid;
+    z-index: 0;
+}
+.slick-dots li button:before {
+    font-size: 0px;
+    border: 2px solid white;
+    height: 10px;
+    width: 10px;
+    margin-top: -20px;
+}
+.slick-dots li.slick-active button:before {
+    background-color: #ffffff;
+}
+/*.slick-prev:before, .slick-next:before {
+    color: white;
+}*/
+.slick-arrow:before {
+    position: absolute;
+    font-size: 0;
+    /*top: 50%;*/
+    
+}
+.slick-prev:before {
+    left: 0;
+    background: url(images/arrowleft.png) 0 0 / 100% no-repeat;
+    height: 60px;
+    width: 30px;
+    margin:-30px 20px;
+    /*z-index: 10;*/
+    
+}
+.slick-next:before {
+    right: 0;
+    background: url(images/arrowright.png) 0 0 / 100% no-repeat;
+    height: 60px;
+    width: 30px;
+    margin:-30px 20px;
+    /*z-index: 11;*/
+}
+.slider-bg {
+    border-bottom: 1px solid white;
+    background-color: rgba(35, 90, 147, 0.3);
+}
